@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Snake 4 now</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+
+    <meta charset="utf-8" />
+
+    <style>
+    body {padding: 0; margin: 0;}
+
+    #title{
+      color: DarkBlue;
+      font-weight: bold;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    #sketch-holder{
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #instructions{
+      color: DarkBlue;
+      font-size: 17px;
+      text-align: center;
+    }
+    </style>
+
+    <script src="sketch.js"></script>
+    <script src="snake.js"></script>
+  </head>
+
+
+  <body>
+    <div id="title">
+      <h1> Snake 4 Now!</h1>
+    </div>
+    <div id="sketch-holder"></div>
+
+    <div id="instructions">
+      <p> Rules and Instructions: </p>
+      <ul> -The snake will begin to move automatically, so be prepared. <br/>
+          -Use the arrow keys to move the snake up, down, left, or right. <br/>
+          -The objective of the game is to get the snake as big as possible, so that it can survive the wilderness. <br/>
+          -Feed red food pellets to the snake. <br/>
+          -Be careful! If your snake hits any of the corners or goes out of bounds, it’s game over. <br/>
+          -Be careful! If your snake accidentally collided with itself, it’s game over. <br/>
+          -Have fun !
+      </ul>
+    </div>
+
+  </body>
+
+
+</html>
